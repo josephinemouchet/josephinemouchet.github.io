@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "PicNic";
+    src: url(PicNic-Regular.woff\ copie) format; ("woff");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #ff0000;
+    font-family: "PicNc", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+p{
+    max-width: 600px;
+}
+
+/* header */
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    justify-content: center;
+    gap: 12px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    background-color: rgb(0, 217, 255);
+}
+
+.nav a span{
+    display: block;
+    padding: 12px;
+}
+
+/** page projet**/
+.projet{
+    background: rgb(0, 0, 240);
+    color: rgb(255, 255, 255);
+}
+
+.projet h1{
+    font-size: 100px;
+}
